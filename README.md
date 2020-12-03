@@ -18,7 +18,10 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 Build using:  
   
 
-> cmake ./  
+> sudo cmake ./  
+  
+(sudo needed to copy README and LICENSE to /.local)  
+  
 > make  
 > make test  
 > make install   
