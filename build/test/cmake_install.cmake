@@ -1,4 +1,4 @@
-# Install script for directory: /home/eli/Assign_4/test
+# Install script for directory: /home/eli/ProcessPDB/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

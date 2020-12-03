@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/eli/Assign_4/include 
+C_INCLUDES = -I/home/eli/ProcessPDB/include 
 

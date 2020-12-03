@@ -1,4 +1,4 @@
-# Install script for directory: /home/eli/Assign_4
+# Install script for directory: /home/eli/ProcessPDB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/eli/Assign_4/build/src/cmake_install.cmake")
-  include("/home/eli/Assign_4/build/test/cmake_install.cmake")
+  include("/home/eli/ProcessPDB/build/src/cmake_install.cmake")
+  include("/home/eli/ProcessPDB/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/eli/Assign_4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eli/ProcessPDB/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
