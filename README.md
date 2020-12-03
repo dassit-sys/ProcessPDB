@@ -18,15 +18,10 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 Build using:  
   
 
+> cmake ./  
 > make  
-> make install  
-  
-OR   
-   
-> cd build  
-> cmake ..  
-> make    
-> make install (optional)  
+> make test  
+> make install   
 
 ## Development
 Developed and tested by Elijah Eason. Written entirely in C
