@@ -22,7 +22,7 @@ Build using:
   
 (sudo needed to copy README and LICENSE to /.local)  
   
-> cmake ./
+> cmake ./  
 > make  
 > make test  
 > make install   
