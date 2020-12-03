@@ -1,4 +1,4 @@
-# Assignment 4 - Eason
+# ProcessPDB - Elijah Eason
 
 The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two CSV files from it:
 - center.csv - Each line in this file reads: ResidueName, ResidueIndex, Pseudocenter X-Coordinate, Pseudocenter Y-Coordinate, Pseudocenter Z-Coordinate
