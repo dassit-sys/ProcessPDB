@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/Assign_4.dir/io.c.o CMakeFiles/Assign_4.dir/main.c.o CMakeFiles/Assign_4.dir/util.c.o  -o ../bin/Assign_4 
