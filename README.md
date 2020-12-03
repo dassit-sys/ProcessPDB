@@ -8,7 +8,7 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 1. Build Assign_4 executable using Makefile/CMake
 2. Run like this (where 'file' is a PDB file):
 > ./Assign_4 file.pdb
-3. Output will be saved to center.csv and cadist.csv in the parent directory
+3. Output will be saved to center.csv and cadist.csv in the home directory
 
 ### Installation from Github
 > git clone https://github.com/dassit-sys/ProcessPDB.git   
@@ -18,13 +18,18 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 Build using:  
   
 
-> sudo cmake ./  
+> sudo su   
   
 (sudo needed to copy README and LICENSE to /.local)  
   
+> cmake ./
 > make  
 > make test  
 > make install   
+
+### Uninstallation
+Run from parent directory
+> sudo rm -rf ProcessPDB
 
 ## Development
 Developed and tested by Elijah Eason. Written entirely in C
