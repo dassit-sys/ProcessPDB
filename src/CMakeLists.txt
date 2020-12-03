@@ -1,0 +1,13 @@
+aux_source_directory(. SRC_LIST)
+add_executable(Assign_4 ${SRC_LIST})
+add_test(NAME test_main COMMAND Assign_4 ../../1atb.pdb)
+
+INSTALL(TARGETS Assign_4 RUNTIME DESTINATION bin)
+
+INSTALL(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ DESTINATION include)
+
+file(COPY ${PROJECT_SOURCE_DIR}/README.md DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+file(COPY ${PROJECT_SOURCE_DIR}/LICENSE DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+enable_testing()

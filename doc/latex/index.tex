@@ -1,0 +1,18 @@
+This is the main page for the project.
+
+
+\begin{DoxyEnumerate}
+\item This project takes a P\+DB (Protein Data Bank) file and produces two C\+SV files from it\+:
+\end{DoxyEnumerate}
+\begin{DoxyItemize}
+\item center.\+csv -\/ Each line in this file reads\+: Residue\+Name, Residue\+Index, Pseudocenter X-\/\+Coordinate, Pseudocenter Y-\/\+Coordinate, Pseudocenter Z-\/\+Coordinate
+\item cadist.\+csv -\/ Each line in this file reads\+: Residue\+A\+Name, Residue\+A\+Index, Residue\+B\+Name, Residue\+B\+Index, Distance between CA atom in current residue and CA atom in next residue
+\end{DoxyItemize}
+\begin{DoxyEnumerate}
+\item This program consists of three modules\+:
+\end{DoxyEnumerate}
+\begin{DoxyItemize}
+\item \hyperlink{main_8c}{main.\+c} -\/ This module is the main entry point of the program. It contains the main method which accepts one argument from the command line. That argument should be the name of the P\+DB file, given in this format\+: \char`\"{}pdb\+File\+Name.\+pdb\char`\"{} without quotes.
+\item \hyperlink{io_8c}{io.\+c} -\/ This module contains \hyperlink{io_8c_a0e8de96ba9834b755921d68a54169018}{read\+P\+D\+B()}, which reads the contents of the given P\+DB file and then converts it into a Residue pointer array, which it returns.
+\item \hyperlink{util_8c}{util.\+c} -\/ This module contains \hyperlink{util_8c_a749f7c5e72d7b088403b739af84f080d}{generate\+Center()} and \hyperlink{util_8c_a8377fb7e5b8b960df60dbaf86e736e6c}{generate\+Cadist()} which both take the Residue pointer array and generate their files, center.\+csv and cadist.\+csv. 
+\end{DoxyItemize}

@@ -1,0 +1,61 @@
+\hypertarget{util_8c}{}\section{/home/eli/\+Assign\+\_\+4/src/util.c File Reference}
+\label{util_8c}\index{/home/eli/\+Assign\+\_\+4/src/util.\+c@{/home/eli/\+Assign\+\_\+4/src/util.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Atom.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Residue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}util.\+h\char`\"{}}\newline
+Include dependency graph for util.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{util_8c_a749f7c5e72d7b088403b739af84f080d}{generate\+Center} (Residue $\ast$residues, int $\ast$num)
+\item 
+void \hyperlink{util_8c_a8377fb7e5b8b960df60dbaf86e736e6c}{generate\+Cadist} (Residue $\ast$residues, int $\ast$num)
+\item 
+float \hyperlink{util_8c_a9fa74db7aef2bf209da45cf0595e99fe}{find\+Sqrt} (float num)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{util_8c_a9fa74db7aef2bf209da45cf0595e99fe}\label{util_8c_a9fa74db7aef2bf209da45cf0595e99fe}} 
+\index{util.\+c@{util.\+c}!find\+Sqrt@{find\+Sqrt}}
+\index{find\+Sqrt@{find\+Sqrt}!util.\+c@{util.\+c}}
+\subsubsection{\texorpdfstring{find\+Sqrt()}{findSqrt()}}
+{\footnotesize\ttfamily float find\+Sqrt (\begin{DoxyParamCaption}\item[{float}]{num }\end{DoxyParamCaption})}
+
+Calculates the square root of a given float 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em num} & The number whose square root will be found \\
+\hline
+\mbox{\tt out}  & {\em a} & float number equaling the square root of \char`\"{}num\char`\"{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{util_8c_a8377fb7e5b8b960df60dbaf86e736e6c}\label{util_8c_a8377fb7e5b8b960df60dbaf86e736e6c}} 
+\index{util.\+c@{util.\+c}!generate\+Cadist@{generate\+Cadist}}
+\index{generate\+Cadist@{generate\+Cadist}!util.\+c@{util.\+c}}
+\subsubsection{\texorpdfstring{generate\+Cadist()}{generateCadist()}}
+{\footnotesize\ttfamily void generate\+Cadist (\begin{DoxyParamCaption}\item[{Residue $\ast$}]{residues,  }\item[{int $\ast$}]{num }\end{DoxyParamCaption})}
+
+Generates cadist.\+csv 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em residues} & a Residue pointer array \\
+\hline
+\mbox{\tt in}  & {\em num} & The number of residues in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{util_8c_a749f7c5e72d7b088403b739af84f080d}\label{util_8c_a749f7c5e72d7b088403b739af84f080d}} 
+\index{util.\+c@{util.\+c}!generate\+Center@{generate\+Center}}
+\index{generate\+Center@{generate\+Center}!util.\+c@{util.\+c}}
+\subsubsection{\texorpdfstring{generate\+Center()}{generateCenter()}}
+{\footnotesize\ttfamily void generate\+Center (\begin{DoxyParamCaption}\item[{Residue $\ast$}]{residues,  }\item[{int $\ast$}]{num }\end{DoxyParamCaption})}
+
+Generates center.\+csv 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em residues} & A Residue pointer array \\
+\hline
+\mbox{\tt in}  & {\em num} & The number of residues in the array \\
+\hline
+\end{DoxyParams}

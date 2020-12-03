@@ -1,0 +1,34 @@
+\hypertarget{io_8c}{}\section{/home/eli/\+Assign\+\_\+4/src/io.c File Reference}
+\label{io_8c}\index{/home/eli/\+Assign\+\_\+4/src/io.\+c@{/home/eli/\+Assign\+\_\+4/src/io.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Atom.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Residue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}util.\+h\char`\"{}}\newline
+Include dependency graph for io.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Residue $\ast$ \hyperlink{io_8c_a0e8de96ba9834b755921d68a54169018}{read\+P\+DB} (F\+I\+LE $\ast$pdb, int $\ast$num)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{io_8c_a0e8de96ba9834b755921d68a54169018}\label{io_8c_a0e8de96ba9834b755921d68a54169018}} 
+\index{io.\+c@{io.\+c}!read\+P\+DB@{read\+P\+DB}}
+\index{read\+P\+DB@{read\+P\+DB}!io.\+c@{io.\+c}}
+\subsubsection{\texorpdfstring{read\+P\+D\+B()}{readPDB()}}
+{\footnotesize\ttfamily Residue$\ast$ read\+P\+DB (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{pdb,  }\item[{int $\ast$}]{num }\end{DoxyParamCaption})}
+
+Read the P\+DB file line by line into a Residue pointer array 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em pdb} & A file pointer \\
+\hline
+\mbox{\tt in}  & {\em num} & An int pointer which points to num in main \\
+\hline
+\mbox{\tt out}  & {\em A} & Residue pointer array \\
+\hline
+\end{DoxyParams}
