@@ -5,7 +5,7 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 - cadist.csv - Each line in this file reads: ResidueAName, ResidueAIndex, ResidueBName, ResidueBIndex, Distance between CA atom in current residue and CA atom in next residue
 
 ## Usage
-1. Build Assign_4 executable using Makefile/CMake
+1. Build Assign_4 executable using installation instructions below
 2. Run like this (where 'file' is a PDB file):
 > ./Assign_4 file.pdb
 3. Output will be saved to center.csv and cadist.csv in the home directory
