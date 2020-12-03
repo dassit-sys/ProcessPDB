@@ -24,7 +24,6 @@ Build using:
   
 > cmake ./  
 > make  
-> make test  
 > make install   
 
 ### Uninstallation
