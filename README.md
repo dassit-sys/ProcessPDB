@@ -12,11 +12,14 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 
 ### Installation from Github
 > git clone https://github.com/dassit-sys/ProcessPDB.git   
-> cd ProcessPDB  
-> cd build  
-> cmake  
+> cd ProcessPDB
+Build using:  
 > make  
-> make test  
+> make install  
+OR    
+> cd build  
+> cmake ..  
+> make    
 > make install (optional)  
 
 ## Development
