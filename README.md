@@ -11,13 +11,13 @@ The Assign_4 executable reads in a PDB (Protein Data Bank) file and produces two
 3. Output will be saved to center.csv and cadist.csv in the parent directory
 
 ### Installation from Github
-> git clone https://github.com/dassit-sys/ProcessPDB.git 
-> cd ProcessPDB
-> cd build
-> cmake
-> make
-> make test
-> make install (optional)
+> git clone https://github.com/dassit-sys/ProcessPDB.git   
+> cd ProcessPDB  
+> cd build  
+> cmake  
+> make  
+> make test  
+> make install (optional)  
 
 ## Development
 Developed and tested by Elijah Eason. Written entirely in C
